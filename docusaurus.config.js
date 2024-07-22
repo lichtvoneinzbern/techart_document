@@ -6,10 +6,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Demoサイト',
-  tagline: '青空文庫から抜粋',
-  url: 'https://iridescent-tarsier-893c49.netlify.app/',
-  baseUrl: '/',
+  title: 'テックドック',
+  tagline: 'tech_doc',
+  url: ' https://lichtvoneinzbern.github.io',
+  baseUrl: '/techart_document/',
+  organizationName: 'lichtvoneinzbern',
+  projectName: 'techart_document',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
