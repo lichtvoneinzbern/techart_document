@@ -10,8 +10,6 @@ const config = {
   tagline: 'tech_doc',
   url: ' https://lichtvoneinzbern.github.io',
   baseUrl: '/techart_document/',
-  organizationName: 'lichtvoneinzbern',
-  projectName: 'techart_document',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
