@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'テックドック',
+  title: 'Tech Doc',
   tagline: 'tech_doc',
   url: ' https://lichtvoneinzbern.github.io',
   baseUrl: '/techart_document/',
@@ -22,7 +22,7 @@ const config = {
         docs: {
           remarkPlugins: [require("mdx-mermaid")],
           sidebarPath: require.resolve('./sidebars.js'),
-          routeBasePath: '/', 
+          routeBasePath: '/',
         },
         blog: false,
         theme: {
@@ -48,20 +48,22 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        //サイトに表示したいタイトルやアイコンの設定
-        title: 'DEMO site',
+        title: 'Tech Doc',
         logo: {
-          alt: 'test website',
+          alt: 'techart_document',
           src: 'img/docusaurus.svg',
-          
         },
         items: [
-          //Headerにアイテムを追加したい場合は以下を参考に記載する
-          // {
-          //   href: 'https://github.com/facebook/docusaurus',
-          //   label: 'GitHub',
-          //   position: 'right',
-          // },
+          {
+            href: 'https://github.com/lichtvoneinzbern',
+            label: 'GitHub',
+            position: 'right',
+          },
+          {
+            href: 'https://x.com/EldL1cht',
+            label: 'X(Twitter)',
+            position: 'right',
+          },
         ],
       },
       prism: {
