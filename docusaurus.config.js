@@ -51,7 +51,7 @@ const config = {
         title: 'Tech Doc',
         logo: {
           alt: 'techart_document',
-          src: 'img/docusaurus.svg',
+          src: 'img/icon.jpg',
         },
         items: [
           {
