@@ -16,12 +16,12 @@ const config = {
   url: 'https://lichtvoneinzbern.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/technical_document/',
+  baseUrl: '/techart_document/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'lichtvoneinzbern', // Usually your GitHub org/user name.
-  projectName: 'technical_document', // Usually your repo name.
+  projectName: 'techart_document', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
