@@ -97,7 +97,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                 label: 'Discordでフレンドに追加',
                 href: 'https://discord.gg/kdj4WhPK',
               },
-
             ],
           },
           {
