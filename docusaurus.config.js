@@ -39,7 +39,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Tech Doc',
         logo: {
           alt: 'My Site Logo',
           src: 'img/icon.png',
@@ -49,9 +49,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'ドキュメント',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'ブログ', position: 'left'},
           {
             href: 'https://github.com/lichtvoneinzbern',
             label: 'GitHub',
