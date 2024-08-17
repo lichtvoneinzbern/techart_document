@@ -49,9 +49,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'ドキュメント',
+            label: 'はじめに',
           },
-          {to: '/blog', label: 'ブログ', position: 'left'},
+          // {to: '/blog', label: 'ブログ', position: 'left'},
           {
             href: 'https://lichtvoneinzbern.github.io/profile/',
             label: 'プロフィール（英語）',
@@ -86,7 +86,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             title: 'SNS',
             items: [
               {
-                label: 'Twitter',
+                label: 'X (Twitter)',
                 href: 'https://x.com/EldL1cht',
               },
               {
@@ -106,10 +106,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               {
                 label: 'プロフィール（英語）',
                 href: 'https://lichtvoneinzbern.github.io/profile/',
-              },
-              {
-                label: 'ブログ',
-                to: '/blog',
               },
               {
                 label: 'GitHub',
