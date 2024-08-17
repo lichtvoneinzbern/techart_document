@@ -53,8 +53,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           },
           {to: '/blog', label: 'ブログ', position: 'left'},
           {
-            href: 'https://github.com/lichtvoneinzbern',
-            label: 'GitHub',
+            href: 'https://lichtvoneinzbern.github.io/profile/',
+            label: 'プロフィール（英語）',
             position: 'right',
           },
           {
@@ -62,42 +62,53 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             label: 'X(Twitter)',
             position: 'right',
           },
+          {
+            href: 'https://github.com/lichtvoneinzbern',
+            label: 'GitHub',
+            position: 'right',
+          },
+
         ],
       },
       footer: {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'ドキュメント',
             items: [
               {
-                label: 'Tutorial',
+                label: 'はじめに',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'SNS',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://x.com/EldL1cht',
               },
+              {
+                label: 'Creatir Hub (Discord 情報共有サーバー)',
+                href: 'https://discord.gg/4TK8Av7S',
+              },
+              {
+                label: 'Discordでフレンドに追加',
+                href: 'https://discord.gg/kdj4WhPK',
+              },
+
             ],
           },
           {
-            title: 'More',
+            title: 'その他',
             items: [
               {
-                label: 'Blog',
+                label: 'プロフィール（英語）',
+                href: 'https://lichtvoneinzbern.github.io/profile/',
+              },
+              {
+                label: 'ブログ',
                 to: '/blog',
               },
               {
