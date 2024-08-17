@@ -57,6 +57,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             label: 'GitHub',
             position: 'right',
           },
+          {
+            href: 'https://github.com/lichtvoneinzbern',
+            label: 'GitHub',
+            position: 'left',
+          },
+          {
+            href: 'https://x.com/EldL1cht',
+            label: 'X(Twitter)',
+            position: 'right',
+          },
         ],
       },
       footer: {
