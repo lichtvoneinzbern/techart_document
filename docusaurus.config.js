@@ -49,14 +49,20 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'はじめに',
+            label: 'ドキュメント',
           },
-          // {to: '/blog', label: 'ブログ', position: 'left'},
+          {to: '/docs/obs_studio/what_is_obs', label: 'OBS Studio', position: 'left'},
           {
             href: 'https://lichtvoneinzbern.github.io/profile/',
             label: 'プロフィール（英語）',
             position: 'right',
           },
+          {
+            href: 'https://www.foriio.com/L1cht',
+            label: 'ポートフォリオ',
+            position: 'right',
+          },
+
           {
             href: 'https://x.com/EldL1cht',
             label: 'X(Twitter)',
@@ -78,7 +84,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             items: [
               {
                 label: 'はじめに',
-                to: '/docs/intro',
+                to: '/docs/intro/',
+              },
+              {
+                label: 'OBS Studio',
+                to: '/docs/obs_studio/what_is_obs/',
               },
             ],
           },
@@ -92,10 +102,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               {
                 label: 'Creatir Hub (Discord 情報共有サーバー)',
                 href: 'https://discord.gg/4TK8Av7S',
-              },
-              {
-                label: 'Discordでフレンドに追加',
-                href: 'https://discord.gg/kdj4WhPK',
               },
             ],
           },
@@ -113,7 +119,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} L1cht.`,
       },
       prism: {
         theme: lightCodeTheme,

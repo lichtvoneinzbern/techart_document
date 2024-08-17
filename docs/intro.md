@@ -2,34 +2,50 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# はじめに
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## このサイトは何？
 
-## Getting Started
+このサイトは、読者のクリエイティブ活動に役立つ情報をまとめています。  
+[**Photoshop**](https://www.adobe.com/jp/products/photoshop.html)や[**Maya**](https://www.autodesk.com/jp/products/maya/overview?term=1-YEAR&tab=subscription)といったデザインソフトや、[**OBS Studio**](https://obsproject.com/ja)という配信ソフトウェアの使い方、用語解説などを主に記しています。
 
-Get started by **creating a new site**.
+## 自己紹介
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+著者は都内某所で[**テクニカルアーティスト**](https://magazine.cygames.co.jp/archives/12870)をしています。  
+具体的な業務内容は、3D背景美術やルックデブ環境の構築、制作パイプラインの整備などです。  
+過去には映像制作を学びながら、MVや3DCGアニメーションの制作を行なっていました。  
+その後3D背景美術に興味が湧き、アルゴリズミックデザインを主軸にアートと数学の関係性を学習し、今の職業に至ります。  
 
-## Generate a new site
+## このサイトのポリシー
+このサイトでは、情報の**正確性**を大事にします。  
+公式の情報を大前提に、簡潔に情報をまとめます。  
+情報を引用する場合には、引用元を必ず明記します。  
 
-Generate a new Docusaurus site using the **classic template**:
+:::tip 公式の情報を読むことの重要性
 
-```shell
-npx @docusaurus/init@latest init my-website classic
-```
+**まずは公式がオススメしている設定や使い方の通りに使用します。**  
+これはどのソフトウェアを使うときでも、強いては何を行うときや考えるときにも重要なことです。
+「**基本をおさえる**」ことを念頭に置きます。
+ウェブ検索をすると色々なオススメ設定や情報を書いているブログなどが多数ヒットしますが、まずは公式の情報通りに設定します。  
+理由として、以下のようなことが挙げられます。
 
-## Start your site
+- **正確性に欠ける**: 個人ブログなどに記載されている情報は、動作の保証ができません。各個人がたまたま上手くいっている情報が記載されている場合があります。  
+例えばYoutubeで配信を行いたい場合、配信ができる場所を提供しているのはYoutubeの運営です。  
+それに関して一番情報を把握している可能性が極めて高いのは運営であり、オススメしている方法にはそれ相応の理由がある場合がほとんどです。  
+- **信頼性がない**: 個人ブログなどに記載されている情報は、信頼性が担保できません。  
+もしもエラーでソフトが動作しなくなったり、最悪の場合PCや素材などが破損した場合、ブログの運営者が動作の保証や損害の補填、代替えの方法を提供してくれる保証はありません。  
+ある程度大きなサービスやソフトウェアの場合、公式にサポート体制が多かれ少なかれ存在します。  
+ソフトウェア自体に更新があったり、Youtubeなどのサービスに変更があった場合にも、その時々で最適な情報を提供してくれる可能性が極めて高いのが公式です。  
 
-Run the development server:
+以下のような場合に個人ブログなど第三者を頼ります。
 
-```shell
-cd my-website
+- **公式の情報に不備があることが確定しており、かつ公式から案内がない場合**
+- **不具合があることが周知の事実となっており、代替え手段として信用することをやむを得ない場合**
+- **「なぜそうするのか」を説明できるレベルに習熟している場合**
 
-npx docusaurus start
-```
+常に確かな情報提供者から最新の情報を得るようにしましょう。
+:::
 
-Your site starts at `http://localhost:3000`.
+## 主要なコンテンツ
 
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.
+

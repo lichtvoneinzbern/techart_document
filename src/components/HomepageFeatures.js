@@ -4,42 +4,47 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'クリエイターへの情報提供',
+    Img: require('../../static/img/softwares.png').default, // defaultを追加
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        PhotoshopやMayaなどのデザインソフト、<br/>
+        OBS Studioといった配信ソフトの設定・使い方など、<br/>
+        ドキュメントとして体系的にまとめています。
       </>
     ),
+    imgSize: { width: 180, height: 180 },
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    title: '現場で使える情報',
+    Img: require('../../static/img/profile.png').default, // defaultを追加
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        著者自身が第一線で活動している現役クリエイターです。<br/>
+        私自身ないし現場のクリエイターが実際に使用する情報をまとめます。
       </>
     ),
+    imgSize: { width: 180, height: 180 },
   },
   {
-    title: 'Powered by React',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    title: '情報の信頼性',
+    Img: require('../../static/img/trust.png').default, // defaultを追加
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        公式ないし信頼にたる情報元が明言している内容を引用元と共に記載し、著者の主観は別枠で記述します。<br/>
+        出典を明らかにすることで、確かな情報を提供します。
       </>
     ),
+    imgSize: { width: 180, height: 180 },
   },
+
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Img, title, description, imgSize }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} alt={title} />
+        <img src={Img} alt={title} style={{ width: imgSize.width, height: imgSize.height }} />
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
