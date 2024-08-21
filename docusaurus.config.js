@@ -1,8 +1,12 @@
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+// @ts-check
+// `@type` JSDoc annotations allow editor autocompletion and type checking
+// (when paired with `@ts-check`).
+// There are various equivalent ways to declare your Docusaurus config.
+// See: https://docusaurus.io/docs/api/docusaurus-config
+import {themes as prismThemes} from 'prism-react-renderer';
 
 // With JSDoc @type annotations, IDEs can provide config autocompletion
-/** @type {import('@docusaurus/types').DocusaurusConfig} */
+/** @type {import('@docusaurus/types').Config} */
 (module.exports = {
     title: 'Tech Doc',
     tagline: 'tech_doc',
@@ -56,7 +60,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                         position: 'left',
                         label: 'ドキュメント',
                     },
-                    {to: '/docs/obs_studio/what_is_obs', label: 'OBS Studio', position: 'left'},
+                    {to: 'docs/category/-obs-studio', label: 'OBS Studio', position: 'left'},
+                    {to: '/docs/category/-photoshop', label: 'Photoshop', position: 'left'},
                     {
                         href: 'https://lichtvoneinzbern.github.io/profile/',
                         label: 'Profile',
@@ -78,6 +83,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                         position: 'right',
                         className: 'header-github-link',
                     },
+                    {
+                        type: 'search',
+                        position: 'right',
+                    },
                 ],
             },
             footer: {
@@ -92,7 +101,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                             },
                             {
                                 label: 'OBS Studio',
-                                to: '/docs/obs_studio/what_is_obs/',
+                                to: 'docs/category/-obs-studio',
+                            },
+                            {
+                                label: 'Photoshop',
+                                to: 'docs/category/-photoshop',
                             },
                         ],
                     },
@@ -126,8 +139,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                 copyright: `Copyright © ${new Date().getFullYear()} L1cht.`,
             },
             prism: {
-                theme: lightCodeTheme,
-                darkTheme: darkCodeTheme,
+                theme: prismThemes.github,
+                darkTheme: prismThemes.dracula,
             },
 
             colorMode: {
@@ -135,5 +148,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                 disableSwitch: false,
                 respectPrefersColorScheme: true,
             },
-        }),
+
+            docs: {
+                sidebar: {
+                    hideable: true,
+                },
+            },
+    }),
 });
