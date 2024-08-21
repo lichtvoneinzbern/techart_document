@@ -26,3 +26,58 @@
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
+
+/* header icons*/
+.header-github-link::before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background-color: var(--ifm-navbar-link-color);
+  mask-image: url("../../static/img/github.svg");
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  transition: background-color var(--ifm-transition-fast)
+    var(--ifm-transition-timing-default);
+}
+
+.header-github-link:hover::before {
+  background-color: var(--ifm-navbar-link-hover-color);
+}
+
+.header-x-link::before {
+  content: '';
+  width: 18px;
+  height: 18px;
+  display: flex;
+  background-color: var(--ifm-navbar-link-color);
+  mask-image: url("../../static/img/x.svg");
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  transition: background-color var(--ifm-transition-fast)
+    var(--ifm-transition-timing-default);
+}
+
+.header-x-link:hover::before {
+  background-color: var(--ifm-navbar-link-hover-color);
+}
+
+.header-foriio-link::before {
+  content: '';
+  width: 48px;
+  height: 18px;
+  display: flex;
+  background-color: var(--ifm-navbar-link-color);
+  mask-image: url("../../static/img/foriio.svg");
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  transition: background-color var(--ifm-transition-fast)
+    var(--ifm-transition-timing-default);
+}
+
+.header-foriio-link:hover::before {
+  background-color: var(--ifm-navbar-link-hover-color);
+}
