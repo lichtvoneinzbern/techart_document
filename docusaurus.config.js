@@ -54,14 +54,11 @@ import {themes as prismThemes} from 'prism-react-renderer';
                     src: 'img/icon.png',
                 },
                 items: [
-                    {
-                        type: 'doc',
-                        docId: 'intro',
-                        position: 'left',
-                        label: 'ドキュメント',
-                    },
-                    {to: 'docs/category/-obs-studio', label: 'OBS Studio', position: 'left'},
+                    {to: '/docs/category/-maya', label: 'Maya', position: 'left'},
+                    {to: '/docs/category/%EF%B8%8F-substance-3d-painter', label: 'Subsntace 3D Painter', position: 'left'},
                     {to: '/docs/category/-photoshop', label: 'Photoshop', position: 'left'},
+                    {to: '/docs/category/-unreal-engine', label: 'Unreal Engine', position: 'left'},
+                    {to: 'docs/category/-obs-studio', label: 'OBS Studio', position: 'left'},
                     {
                         href: 'https://lichtvoneinzbern.github.io/profile/',
                         label: 'Profile',
@@ -93,19 +90,15 @@ import {themes as prismThemes} from 'prism-react-renderer';
                 style: 'dark',
                 links: [
                     {
-                        title: 'ドキュメント',
+                        title: 'ページリンク',
                         items: [
                             {
                                 label: 'はじめに',
                                 to: '/docs/intro/',
                             },
                             {
-                                label: 'OBS Studio',
-                                to: 'docs/category/-obs-studio',
-                            },
-                            {
-                                label: 'Photoshop',
-                                to: 'docs/category/-photoshop',
+                                label: '利用規約',
+                                to: 'docs/terms_of_service',
                             },
                         ],
                     },
@@ -126,7 +119,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
                         title: 'その他',
                         items: [
                             {
-                                label: 'プロフィール（英語）',
+                                label: '著者プロフィール（英語）',
                                 href: 'https://lichtvoneinzbern.github.io/profile/',
                             },
                             {
@@ -152,6 +145,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
             docs: {
                 sidebar: {
                     hideable: true,
+                    autoCollapseCategories: true,
                 },
             },
     }),
