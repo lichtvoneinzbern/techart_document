@@ -14,8 +14,8 @@
 
 | 画像 | 説明 |
 | --- | --- |
-| ![alt text](obs_dawnload_page.png) | [**コチラ**](https://obsproject.com/ja/download)を**クリック**して、公式のダウンロードページにアクセスします。 <br></br>左のようなページが表示されれば大丈夫です。<br></br><br></br> 画面中央のWindowsのマークが青色になっていない場合、別OS（MacやLinux）の項目が表示されています。<br></br>Windowsのマークをクリックし、青色になっていることを確認してから次の手順に進みます。|
-|![alt text](obs_dawnload_installer.png) |ページ右側に表示されている「ダウンロードインストーラー」を**クリック**してダウンロードします。|
+| ![obs_dawnload_page](obs_dawnload_page.png) | [**コチラ**](https://obsproject.com/ja/download)を**クリック**して、公式のダウンロードページにアクセスします。 <br></br>左のようなページが表示されれば大丈夫です。<br></br><br></br> 画面中央のWindowsのマークが青色になっていない場合、別OS（MacやLinux）の項目が表示されています。<br></br>Windowsのマークをクリックし、青色になっていることを確認してから次の手順に進みます。|
+|![obs_dawnload_installer](obs_dawnload_installer.png) |ページ右側に表示されている「ダウンロードインストーラー」を**クリック**してダウンロードします。|
 |||
 
 ## 2️⃣ インストール

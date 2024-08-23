@@ -13,7 +13,9 @@ module.exports = {
 			},
 			items: [
 				'maya/what_is_maya',
-				'maya/how_to_install',
+				'maya/open_source_components',
+				'maya/asset_for_unreal_engine',
+				'maya/devkit',
 			],
 		},
 		{
