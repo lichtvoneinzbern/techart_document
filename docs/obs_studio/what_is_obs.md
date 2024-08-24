@@ -8,4 +8,4 @@
 - **ページ更新時期** : このページは**2024年8月**に執筆しています。現状と内容が異なる場合があります。
 :::
 
-![obs window](obs_window.png)
+![obs_window](obs_window.png)

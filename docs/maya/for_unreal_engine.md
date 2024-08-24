@@ -1,4 +1,4 @@
-# シーン設定（Unreal Engine）
+# シーン設定（for Unreal Engine）
 
 このページでは、Unreal Engine向けにMayaでアセットを制作する際のシーン設定について説明します。
 
@@ -80,6 +80,8 @@ cmds.upAxis(axis='y', rotateView=True)
 1. Display > **Grid Options** を開く
 2. Size の Grid lines every を **10.0000** に設定
 ![maya_grid_lines_every](maya_grid_lines_every.png)
+
+### コマンドで設定する場合
 
 ```python title="change_grid_spacing"
 cmds.grid(spacing=10)

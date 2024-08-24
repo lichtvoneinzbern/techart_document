@@ -90,3 +90,8 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 .header-foriio-link:hover::before {
   background-color: var(--ifm-navbar-link-hover-color);
 }
+
+/* H2 */
+.markdown h2 {
+  text-decoration: underline;
+}

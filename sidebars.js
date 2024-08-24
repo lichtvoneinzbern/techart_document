@@ -14,7 +14,8 @@ module.exports = {
 			items: [
 				'maya/what_is_maya',
 				'maya/open_source_components',
-				'maya/asset_for_unreal_engine',
+				'maya/for_unreal_engine',
+				'maya/environment_variable',
 				'maya/devkit',
 			],
 		},
@@ -67,10 +68,10 @@ module.exports = {
 				'obs_studio/how_to_install',
 				{
 					type: 'category',
-					label: '設定の解説',
+					label: '設定',
 					link: {
 						type: 'generated-index',
-						title: '設定の解説',
+						title: '設定',
 						description: '以下のページでは、OBS Studio（オービーエススタジオ）の設定項目について解説しています。',
 					},
 					items: [

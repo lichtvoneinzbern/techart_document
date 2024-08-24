@@ -10,7 +10,7 @@ const FeatureList = [
       <>
         PhotoshopやMayaなどのデザインソフト、<br/>
         OBS Studioといった配信ソフトなど、<br/>
-        設定方法・使い方を体系的にまとめます。
+        設定方法・使い方を網羅的にまとめます。
       </>
     ),
     imgSize: { width: 128, height: 128 },
