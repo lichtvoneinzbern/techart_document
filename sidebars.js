@@ -65,6 +65,19 @@ module.exports = {
 			items: [
 				'obs_studio/what_is_obs',
 				'obs_studio/how_to_install',
+				{
+					type: 'category',
+					label: '設定の解説',
+					link: {
+						type: 'generated-index',
+						title: '設定の解説',
+						description: '以下のページでは、OBS Studio（オービーエススタジオ）の設定項目について解説しています。',
+					},
+					items: [
+						'obs_studio/settings/how_to_start',
+						'obs_studio/settings/general',
+					],
+				},
 			],
 		},
 		"terms_of_service",

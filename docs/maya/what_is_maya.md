@@ -1,12 +1,12 @@
 # Mayaとは？
 
+MayaはAutodesk社の開発する、3Dモデル、アニメーション、シミュレーションデータを作成するための3DCGクリエイティブツールです。  
+3DCGデータの制作において、最も主流なソフトウェアです。
+
 :::info このページについて
 
 - **ページ更新時期** : このページは**2024年8月**に執筆しています。現状と内容が異なる場合があります。
 :::
-
-MayaはAutodesk社の開発する、3Dモデル、アニメーション、シミュレーションデータを作成するための3DCGクリエイティブツールです。  
-3DCGデータの制作において、最も主流なソフトウェアです。
 
 <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', height: 'auto' }}>
 	<iframe 
