@@ -39,7 +39,6 @@
       margin: 0, 
       display: 'block',
       lineHeight: '1.4em',
-      textAlign: 'right'
     }}>
 		調整ができないのでほぼ使いません。
     </p>
@@ -92,7 +91,6 @@
       margin: 0, 
       display: 'block',
       lineHeight: '1.4em',
-      textAlign: 'right'
     }}>
 		結構便利なので、多用します。
     </p>
@@ -145,7 +143,6 @@
       margin: 0, 
       display: 'block',
       lineHeight: '1.4em',
-      textAlign: 'right'
     }}>
 		制御が難しいです。  
 		特定の状況でないと、あまり使わない印象です。
@@ -220,11 +217,9 @@
       margin: 0, 
       display: 'block',
       lineHeight: '1.4em',
-      textAlign: 'right' /* ここでテキストを右寄せに設定 */
     }}>
       設定項目が、やや上級者向けです。<br /><br />
-      上の画像では全体的にエフェクトをかけてしまっていますが、<br />
-      範囲選択・レイヤー単位でフィルターをかけることで、カメラで撮影したときのボケを演出できます。<br />
+      範囲選択・レイヤー単位でフィルターをかけることで、カメラでのボケを演出できます。<br />
       夜景など、ムードのある雰囲気づくりによく使います。<br /><br />
       ![bokeh_lens_demo](bokeh_lens_demo.gif)<br />
       引用：[Sharpening recommendations](https://helpx.adobe.com/photoshop/using/adjusting-image-sharpness-blur.html)
