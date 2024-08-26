@@ -35,8 +35,6 @@ print(f"{major}.{minor}.{micro} : {releaselevel} {serial}")
 
 </details>
 
-***
-
 ### 選択されているメッシュをリストで取得（子階層を含む）
 
 ```python title="get_selected_meshes"

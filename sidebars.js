@@ -105,7 +105,19 @@ module.exports = {
 						'obs_studio/settings/general',
 					],
 				},
-			],
+				{
+					type: 'category',
+					label: '不具合対応',
+					link: {
+						type: 'generated-index',
+						title: '不具合対応',
+						description: '以下のページでは、不具合時に確認するべき内容について解説しています。',
+					},
+					items: [
+						'obs_studio/trouble_shooting/log_file'
+					],
+				},
+			]
 		},
 		"terms_of_service",
 		"sandbox",
