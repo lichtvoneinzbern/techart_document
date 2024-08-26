@@ -33,7 +33,6 @@
     marginRight: '10px',
     boxSizing: 'border-box',
     lineHeight: '1.4em',
-    top: '-10px',
   }}>
     <p style={{ 
       margin: 0, 
@@ -43,18 +42,23 @@
 		調整ができないのでほぼ使いません。
     </p>
     <div style={{
-      position: 'absolute',
-      top: '50%',
-      left: '100%',
-      width: 0,
-      height: 0,
-      borderTop: '10px solid transparent',
-      borderLeft: '10px solid #dddddd',
-      borderBottom: '10px solid transparent',
-      transform: 'translateY(-50%)'
-    }}></div>
-  </div>
-  ![alt text](../../../../static/img/profile_100px.png)
+		position: 'absolute',
+		top: '50%',
+		left: '100%',
+		width: 0,
+		height: 0,
+		borderTop: '10px solid transparent',
+		borderLeft: '10px solid #dddddd',
+		borderBottom: '10px solid transparent',
+		transform: 'translateY(-50%)'
+		}}></div>
+	</div>
+	<div  style={{
+		width: 100,
+		height: 100,
+	}}>
+		![alt text](../../../../static/img/profile_100px.png)
+	</div>
 </div>
 
 ### ぼかし（ガウス）
@@ -85,8 +89,7 @@
     marginRight: '10px',
     boxSizing: 'border-box',
     lineHeight: '1.4em',
-    top: '-10px',
-  }}>
+  	}}>
     <p style={{ 
       margin: 0, 
       display: 'block',
@@ -105,8 +108,13 @@
       borderBottom: '10px solid transparent',
       transform: 'translateY(-50%)'
     }}></div>
-  </div>
-  ![alt text](../../../../static/img/profile_100px.png)
+  	</div>
+	<div  style={{
+		width: 100,
+		height: 100,
+	}}>
+		![alt text](../../../../static/img/profile_100px.png)
+	</div>
 </div>
 
 ### ぼかし（シェイプ）
@@ -137,7 +145,6 @@
     marginRight: '10px',
     boxSizing: 'border-box',
     lineHeight: '1.4em',
-    top: '-10px',
   }}>
     <p style={{ 
       margin: 0, 
@@ -159,7 +166,12 @@
       transform: 'translateY(-50%)'
     }}></div>
   </div>
-  ![alt text](../../../../static/img/profile_100px.png)
+	<div  style={{
+		width: 100,
+		height: 100,
+	}}>
+		![alt text](../../../../static/img/profile_100px.png)
+	</div>
 </div>
 
 ### ぼかし（ボックス）
@@ -211,7 +223,6 @@
     marginRight: '10px',
     boxSizing: 'border-box',
     lineHeight: '1.4em',
-    top: '-10px',
   }}>
     <p style={{ 
       margin: 0, 
@@ -236,7 +247,12 @@
       transform: 'translateY(-50%)'
     }}></div>
   </div>
-  ![alt text](../../../../static/img/profile_100px.png)
+	<div  style={{
+		width: 100,
+		height: 100,
+	}}>
+		![alt text](../../../../static/img/profile_100px.png)
+	</div>
 </div>
 
 
@@ -275,7 +291,6 @@
 		height: '100px',
 		boxSizing: 'border-box',
 		lineHeight: '1.4em',
-		top: '-10px'
 	}}>
 		<p style={{ margin: 0, height: '100%', display: 'flex', alignItems: 'center' }}>
 		ブレや速度のあるような演出を簡単に作れます。<br />部分的に多用します。
@@ -292,5 +307,10 @@
 		transform: 'translateY(-50%)'
 		}}></div>
 	</div>
-	![alt text](../../../../static/img/profile_100px.png)
+	<div  style={{
+		width: 100,
+		height: 100,
+	}}>
+		![alt text](../../../../static/img/profile_100px.png)
+	</div>
 </div>
