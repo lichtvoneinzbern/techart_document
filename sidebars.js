@@ -53,6 +53,19 @@ module.exports = {
 			},
 			items: [
 				'photoshop/what_is_photoshop',
+				{
+					type: 'category',
+					label: 'フィルター',
+					link: {
+						type: 'generated-index',
+						title: 'フィルター',
+						description: '以下のページでは、フィルターについて解説しています。'
+					},
+					items: [
+						'photoshop/filter/what_is_filter',
+						'photoshop/filter/bokeh/bokeh',
+					],
+				},
 			],
 		},
 		{
