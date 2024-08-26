@@ -13,10 +13,23 @@ module.exports = {
 			},
 			items: [
 				'maya/what_is_maya',
-				'maya/open_source_components',
+
 				'maya/for_unreal_engine',
-				'maya/environment_variable',
-				'maya/devkit',
+				{
+					type: 'category',
+					label: 'テクニカルドキュメント',
+					link: {
+						type: 'generated-index',
+						title: 'テクニカルドキュメント',
+						description: '以下のページでは、テクニカルアーティストが使用する知識ついて解説しています。',
+					},
+					items: [
+						'maya/script/general',
+						'maya/script/open_source_components',
+						'maya/script/environment_variable',
+						'maya/script/devkit',
+					],
+				},
 			],
 		},
 		{

@@ -5,7 +5,7 @@
 :::info このページについて
 
 - **ページ更新時期** : このページは**2024年8月**に執筆しています。現状と内容が異なる場合があります。
-- **バージョン** : このページはMaya 2024.2の情報が記載されています。
+- **バージョン** : このページは**Maya 2024.2**の情報が記載されています。
 - **情報出展元** : [**公式のヘルプページ**](https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=GUID-925EB3B5-1839-45ED-AA2E-3184E3A45AC7)を参考に記載しています。具体的な参照ページが存在する場合は適宜リンクを記載します。
 :::
 
@@ -152,6 +152,3 @@ for path in module_paths:
 		C:/Users/owner/Documents/maya/modules  
 		C:/Program Files/Common Files/Autodesk Shared/Modules/maya/2024  
 </details>
-
-
-
