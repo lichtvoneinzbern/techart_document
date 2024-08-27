@@ -91,18 +91,20 @@ module.exports = {
 			},
 			items: [
 				'obs_studio/what_is_obs',
-				'obs_studio/how_to_install',
+				'obs_studio/install/how_to_install',
+				'obs_studio/recommended_setting/streaming',
+				'obs_studio/recommended_setting/recording',
 				{
 					type: 'category',
-					label: '設定',
+					label: '設定解説',
 					link: {
 						type: 'generated-index',
-						title: '設定',
+						title: '設定解説',
 						description: '以下のページでは、OBS Studio（オービーエススタジオ）の設定項目について解説しています。',
 					},
 					items: [
 						'obs_studio/settings/how_to_start',
-						'obs_studio/settings/general',
+						'obs_studio/settings/general/general',
 					],
 				},
 				{
