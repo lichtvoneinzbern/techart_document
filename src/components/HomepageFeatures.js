@@ -18,6 +18,7 @@ const FeatureList = [
   {
     title: '現場で使える情報',
     Img: require('../../static/img/profile.png').default, // defaultを追加
+    className: 'no-border',
     description: (
       <>
         著者自身が現役で活動しているクリエイターです。<br/>
@@ -44,7 +45,7 @@ function Feature({ Img, title, description, imgSize }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <img src={Img} alt={title} style={{ width: imgSize.width, height: imgSize.height }} />
+        <img className="no-border" src={Img} alt={title} style={{ width: imgSize.width, height: imgSize.height }} />
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>

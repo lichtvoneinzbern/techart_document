@@ -8,6 +8,8 @@
 - **OBS Studioのバージョン** : このページは**OBS Studio 30.2.3 64bit**の情報が記載されています。
 :::
 
+***
+
 |画像|説明|
 |:---:|:---|
 |![settings_menu](settings_menu.png)|OBS Studioの上部にあるメニューバーから「ファイル」→「**設定**」をクリックします。|

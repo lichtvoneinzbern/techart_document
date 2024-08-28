@@ -52,6 +52,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
                 logo: {
                     alt: 'My Site Logo',
                     src: 'img/icon.png',
+                    className: 'no-border',
                 },
                 items: [
                     {to: '/docs/category/-maya', label: 'Maya', position: 'left'},

@@ -116,7 +116,8 @@ module.exports = {
 						description: '以下のページでは、不具合時に確認するべき内容について解説しています。',
 					},
 					items: [
-						'obs_studio/trouble_shooting/log_file'
+						'obs_studio/trouble_shooting/log_file',
+						'obs_studio/trouble_shooting/cant_open_nvenc_codec'
 					],
 				},
 			]

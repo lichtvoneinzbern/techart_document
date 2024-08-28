@@ -21,9 +21,12 @@ danger
 :::
 
 <details>
-  	<summary>toggle me!</summary>
+  	<summary>エラーメッセージのテキスト</summary>
 
-	text here
+	>配信開始に失敗しました
+	>
+	>NVENCコーデックを開けませんでした: Function not implemented  
+	>お使いのビデオドライバが最新のものであるかを確認してください。
 
 </details>
 

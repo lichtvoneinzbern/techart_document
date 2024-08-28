@@ -95,3 +95,15 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 .markdown h2 {
   text-decoration: underline;
 }
+
+img {  
+  border: 2px solid #000; /* 枠線の色と太さを設定します（ここでは黒色で2pxの枠線） */  
+  border-radius: 8px; /* 枠線の角を丸くします（オプション） */  
+}  
+
+/* 特定の画像に枠線を適用しない */  
+img.no-border {  
+  border: none;  
+  padding: 0;  
+  border-radius: 0;  
+}  
