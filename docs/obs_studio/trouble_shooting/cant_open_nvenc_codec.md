@@ -45,17 +45,17 @@ OBS Studioの再起動を行います。
 
 問題が解決しない場合、次のステップに進みます。
 
-### ステップ③：最新ドライバーのインストール
+### ステップ③：最新ドライバのインストール
 
-「**GeForce Experience**」もしくは[**NVIDIA公式サイト**](https://www.nvidia.com/ja-jp/drivers/)からドライバーをダウンロード、インストールを行います。
+「**GeForce Experience**」もしくは[**NVIDIA公式サイト**](https://www.nvidia.com/ja-jp/drivers/)からドライバをダウンロード、インストールを行います。
 
-この項目では「GeForce Experience」を使用した最新ドライバーのインストール方法を解説します。
+この項目では「GeForce Experience」を使用した最新ドライバのインストール方法を解説します。
 
 <details>
   	<summary>NVIDIA公式サイトからインストールを行う場合</summary>
 
 	以下のような入力欄に、自分の使用しているグラフィックボードの型番を入力して検索する必要があります。  
-	ドライバーは都度新しいバージョンがリリースされるため、毎回入力する手間がないように「GeForce Experience」を導入することをお勧めします。
+	ドライバは都度新しいバージョンがリリースされるため、毎回入力する手間がないように「GeForce Experience」を導入することをお勧めします。
 	![nvidia_driver_install_manual](nvidia_driver_install_manual.png)  
 
 
@@ -67,12 +67,12 @@ OBS Studioの再起動を行います。
 |:---:|---|
 ||まず、OBS Studioを閉じます。<br></br>閉じたら「**GeForce Experience**」を起動します。|
 |![geforce_experience_window_search](geforce_experience_window_search.png)|windowsメニューを起動し「geforce」と入力します。<br></br>インストールされていると「**GeForce Experience**」がヒットするのでクリックします。<br></br><br></br>表示されない場合はインストールされていない可能性が高いです。<br></br>[**公式のダウンロードページ**](https://www.nvidia.com/ja-jp/geforce/geforce-experience/download/)からダウンロード、インストールします。|
-|![gforce_experience_home](gforce_experience_home.png)|起動してログインが完了すると、左のような画面が表示されます。<br></br>画面左上の「**ドライバー**」をクリックします。|
-|![gforce_experience_driver](gforce_experience_driver.png)|ドライバーの情報が表示されます。<br></br><br></br>最新のドライバーがインストールされていない場合、画面右上に「**ダウンロード**」という緑色のボタンが表示されているのでクリックします。<br></br><br></br>表示されていない場合、画面右上の「更新プログラムを確認」をクリックすると最新のドライバーが表示される場合があります。|
+|![gforce_experience_home](gforce_experience_home.png)|起動してログインが完了すると、左のような画面が表示されます。<br></br>画面左上の「**ドライバ**」をクリックします。|
+|![gforce_experience_driver](gforce_experience_driver.png)|ドライバの情報が表示されます。<br></br><br></br>最新のドライバがインストールされていない場合、画面右上に「**ダウンロード**」という緑色のボタンが表示されているのでクリックします。<br></br><br></br>表示されていない場合、画面右上の「更新プログラムを確認」をクリックすると最新のドライバが表示される場合があります。|
 |![geforce_experience_express_install](geforce_experience_express_install.png)|ダウンロードが完了すると、ボタンが左画像のような表示になります。<br></br>「**エクスプレスインストール**」をクリックします。|
 |![geforce_experience_now_install](geforce_experience_now_install.png)|インストールが開始されると左のような画面になります。<br></br>インストールが完了するまで待ちます。|
 |![geforce_experience_finish_install](geforce_experience_finish_install.png)|インストールが完了すると、左の画像のような表示になります。<br></br>右下の「**閉じる**」を押して画面を閉じます。|
-|![geforce_experience_up_to_date](geforce_experience_up_to_date.png)|正常に最新のドライバーがインストールされると、ドライバーページの左上の文字が「**最新のGEFORCE	 GAME READY ドライバです**」と表示されます。<br></br><br></br>これで最新ドライバーのインストールは完了です。<br></br>次のステップに進みます。|
+|![geforce_experience_up_to_date](geforce_experience_up_to_date.png)|正常に最新のドライバがインストールされると、ドライバページの左上の文字が「**最新のGEFORCE	 GAME READY ドライバです**」と表示されます。<br></br><br></br>これで最新ドライバのインストールは完了です。<br></br>次のステップに進みます。|
 
 ### ステップ④：パソコンの再起動
 
