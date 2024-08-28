@@ -49,6 +49,8 @@ OBS Studioの再起動を行います。
 
 「**GeForce Experience**」もしくは[**NVIDIA公式サイト**](https://www.nvidia.com/ja-jp/drivers/)からドライバーをダウンロード、インストールを行います。
 
+この項目では「GeForce Experience」を使用した最新ドライバーのインストール方法を解説します。
+
 <details>
   	<summary>NVIDIA公式サイトからインストールを行う場合</summary>
 
