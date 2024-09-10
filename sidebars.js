@@ -94,6 +94,7 @@ module.exports = {
 				'obs_studio/install/how_to_install',
 				'obs_studio/recommended_setting/streaming',
 				'obs_studio/recommended_setting/recording',
+				'obs_studio/menu/menu',
 				{
 					type: 'category',
 					label: '設定解説',
