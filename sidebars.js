@@ -137,11 +137,11 @@ module.exports = {
 					label: '数学',
 					link: {
 						type: 'generated-index',
-						title: 'テクニカルドキュメント',
+						title: '数学',
 						description: '以下のページでは、数学に関する知識ついて解説しています。',
 					},
 					items: [
-						'note/math/quadratic_equation',
+						'note/math/equation',
 					],
 				},
 			],
