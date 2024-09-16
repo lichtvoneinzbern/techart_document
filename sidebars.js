@@ -123,6 +123,29 @@ module.exports = {
 				},
 			]
 		},
+		{
+			type: 'category',
+			label: '雑記',
+			link: {
+				type: 'generated-index',
+				title: '雑記',
+				description: '以下のページでは、カテゴリー分けのできていない内容についてまとめています。',
+			},
+			items: [
+				{
+					type: 'category',
+					label: '数学',
+					link: {
+						type: 'generated-index',
+						title: 'テクニカルドキュメント',
+						description: '以下のページでは、数学に関する知識ついて解説しています。',
+					},
+					items: [
+						'note/math/quadratic_equation',
+					],
+				},
+			],
+		},
 		"terms_of_service",
 		"sandbox",
 	],
