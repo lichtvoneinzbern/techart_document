@@ -33,6 +33,7 @@ export default function QuadraticEquation() {
 				},
 			},
 			animation: false,
+			maintainAspectRatio: false, // グラフのアスペクト比を無効にする
 		};
 
 		let chartInstance;
@@ -94,7 +95,7 @@ export default function QuadraticEquation() {
 	}, []);
 
 	return (
-		<div>
+		<div style={{ textAlign: "center" }}>
 			<div style={{ marginBottom: "20px" }}>
 				<label htmlFor="aSlider" style={{ marginRight: "10px" }}>
 					a:
@@ -105,7 +106,7 @@ export default function QuadraticEquation() {
 					min="-5"
 					max="5"
 					defaultValue="1"
-					step="0.1"
+					step="1"
 					ref={aSliderRef}
 					style={{ width: "200px", marginRight: "10px" }}
 				/>
@@ -128,7 +129,14 @@ export default function QuadraticEquation() {
 				<span ref={bValueRef}>2</span>
 			</div>
 
-			<div style={{ width: "80%", margin: "40px auto" }}>
+			<div
+				style={{
+					width: "100%",
+					maxWidth: "1200px",
+					margin: "40px auto",
+					height: "500px",
+				}}
+			>
 				<canvas ref={chartRef}></canvas>
 			</div>
 		</div>

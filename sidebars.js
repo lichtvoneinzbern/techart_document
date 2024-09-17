@@ -125,11 +125,11 @@ module.exports = {
 		},
 		{
 			type: 'category',
-			label: '雑記',
+			label: '学術',
 			link: {
 				type: 'generated-index',
-				title: '雑記',
-				description: '以下のページでは、カテゴリー分けのできていない内容についてまとめています。',
+				title: '学術',
+				description: '以下のページでは、作品制作に応用する学術的内容をまとめています。',
 			},
 			items: [
 				{

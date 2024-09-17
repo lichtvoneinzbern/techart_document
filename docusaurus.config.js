@@ -21,6 +21,13 @@ import {themes as prismThemes} from 'prism-react-renderer';
         locales: ['ja'],
     },
 
+    stylesheets: [
+        {
+        href: 'https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css',
+        type: 'text/css',
+        },
+    ],
+
     presets: [
         [
         '@docusaurus/preset-classic',
@@ -149,5 +156,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
                     autoCollapseCategories: true,
                 },
             },
+            remarkPlugins: [require('remark-math')],
+            rehypePlugins: [require('rehype-katex')],
     }),
 });
