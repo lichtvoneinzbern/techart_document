@@ -1,6 +1,6 @@
 # 汎用スクリプト
 
-このページでは、mayaでよく使用するPythonスクリプトをまとめます。  
+このページでは、mayaでよく使用するPythonスクリプトをまとめます。
 項目は操作対象ごとに分けます。
 
 :::info このページについて
@@ -46,9 +46,9 @@ from typing import Optional
 def get_selected_meshes(name_filter: Optional[str] = None) -> list:
     """
     Retrieves all selected mesh objects, including those in child hierarchies.
-    
+
     Args:
-        name_filter (Optional[str]): A substring to filter the mesh names. 
+        name_filter (Optional[str]): A substring to filter the mesh names.
             Only meshes containing this substring will be returned. If not provided, all selected meshes are returned.
 
     Returns:

@@ -2,12 +2,11 @@ import QuadraticEquation from './QuadraticEquation';
 import FibonacciSequence from './FibonacciSequence';
 import ExponentialGraph from './ExponentialGraph';
 
-# 数式の図解
+# 数の図解
 
-このページでは数式を図解します。
+このページでは数を図解します。
 
 ## n次方程式
-
 
 スライドバーを使って、係数**a**と指数**b**を変更することができます。
 
