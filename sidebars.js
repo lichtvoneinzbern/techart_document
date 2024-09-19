@@ -141,7 +141,7 @@ module.exports = {
 						description: '以下のページでは、数学に関する知識ついて解説しています。',
 					},
 					items: [
-						'note/math/equation',
+						'academic/math/equation',
 					],
 				},
 			],

@@ -8,6 +8,20 @@ import ExponentialGraph from './ExponentialGraph';
 
 ## n次方程式
 
+:::note NOTE
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+	<mstyle displaystyle="true" scriptlevel="0" mathsize="18px">
+	<mrow>
+		<mi>y</mi>
+		<mo>=</mo>
+		<mi>ax</mi>
+		<mo>^</mo>
+		<mi>b</mi>
+	</mrow>
+	</mstyle>
+</math>
+:::
+
 スライドバーを使って、係数**a**と指数**b**を変更することができます。
 
 <QuadraticEquation />
@@ -120,6 +134,9 @@ import ExponentialGraph from './ExponentialGraph';
 		</mrow>
 		</mfrac>
 		<mo>+</mo>
+		<mo>&#x22EF;</mo>
+	<mo>=</mo>
+		<mn>2.71828182845904</mn>
 		<mo>&#x22EF;</mo>
 	</mstyle>
 </math>
