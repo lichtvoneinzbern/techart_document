@@ -132,18 +132,18 @@ module.exports = {
 				description: '以下のページでは、ソフトウェア以外の知識をまとめています。',
 			},
 			items: [
-				{
-					type: 'category',
-					label: '数学',
-					link: {
-						type: 'generated-index',
-						title: '数学',
-						description: '以下のページでは、数学に関する知識ついて解説しています。',
-					},
-					items: [
-						'note/math/equation',
-					],
-				},
+				// {
+				// 	type: 'category',
+				// 	label: '数学',
+				// 	link: {
+				// 		type: 'generated-index',
+				// 		title: '数学',
+				// 		description: '以下のページでは、数学に関する知識ついて解説しています。',
+				// 	},
+				// 	items: [
+				// 		'note/math/equation',
+				// 	],
+				// },
 				{
 					type: 'category',
 					label: 'その他',

@@ -156,7 +156,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
                     autoCollapseCategories: true,
                 },
             },
-            remarkPlugins: [require('remark-math')],
-            rehypePlugins: [require('rehype-katex')],
+            // remarkPlugins: [require('remark-math')],
+            // rehypePlugins: [require('rehype-katex')],
     }),
 });
