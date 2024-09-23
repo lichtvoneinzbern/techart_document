@@ -125,11 +125,11 @@ module.exports = {
 		},
 		{
 			type: 'category',
-			label: '学術',
+			label: '雑記',
 			link: {
 				type: 'generated-index',
-				title: '学術',
-				description: '以下のページでは、作品制作に応用する学術的内容をまとめています。',
+				title: '雑記',
+				description: '以下のページでは、ソフトウェア以外の知識をまとめています。',
 			},
 			items: [
 				{
@@ -141,7 +141,19 @@ module.exports = {
 						description: '以下のページでは、数学に関する知識ついて解説しています。',
 					},
 					items: [
-						'academic/math/equation',
+						'note/math/equation',
+					],
+				},
+				{
+					type: 'category',
+					label: 'その他',
+					link: {
+						type: 'generated-index',
+						title: 'その他',
+						description: '以下のページでは、カテゴリー分けに当てはまらない項目について解説しています。',
+					},
+					items: [
+						'note/etc/various_size',
 					],
 				},
 			],
