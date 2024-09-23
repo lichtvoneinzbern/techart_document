@@ -33,8 +33,8 @@
     boxSizing: 'border-box',
     lineHeight: '1.4em',
   }}>
-    <p style={{ 
-      margin: 0, 
+    <p style={{
+      margin: 0,
       display: 'block',
       lineHeight: '1.4em',
     }}>
@@ -83,8 +83,8 @@
     boxSizing: 'border-box',
     lineHeight: '1.4em',
   	}}>
-    <p style={{ 
-      margin: 0, 
+    <p style={{
+      margin: 0,
       display: 'block',
       lineHeight: '1.4em',
     }}>

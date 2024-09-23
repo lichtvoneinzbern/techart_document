@@ -129,7 +129,7 @@ module.exports = {
 			link: {
 				type: 'generated-index',
 				title: '雑記',
-				description: '以下のページでは、ソフトウェア以外の知識をまとめています。',
+				description: '以下のページでは、ソフトウェア以外の知識をまとめています。出典元の信頼性などを精査できていない内容もあるため、正しい情報か確認しながら参照をお願いします。',
 			},
 			items: [
 				'note/etc/various_size',
