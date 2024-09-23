@@ -132,6 +132,8 @@ module.exports = {
 				description: '以下のページでは、ソフトウェア以外の知識をまとめています。',
 			},
 			items: [
+				'note/etc/various_size',
+				'note/etc/ai_prompt',
 				// {
 				// 	type: 'category',
 				// 	label: '数学',
@@ -144,18 +146,18 @@ module.exports = {
 				// 		'note/math/equation',
 				// 	],
 				// },
-				{
-					type: 'category',
-					label: 'その他',
-					link: {
-						type: 'generated-index',
-						title: 'その他',
-						description: '以下のページでは、カテゴリー分けに当てはまらない項目について解説しています。',
-					},
-					items: [
-						'note/etc/various_size',
-					],
-				},
+				// {
+				// 	type: 'category',
+				// 	label: 'その他',
+				// 	link: {
+				// 		type: 'generated-index',
+				// 		title: 'その他',
+				// 		description: '以下のページでは、カテゴリー分けに当てはまらない項目について解説しています。',
+				// 	},
+				// 	items: [
+				// 		'note/etc/various_size',
+				// 	],
+				// },
 			],
 		},
 		"terms_of_service",
